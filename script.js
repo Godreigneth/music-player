@@ -33,3 +33,6 @@ const songs = [
     artist: 'Metric/Jacinto Design',
   },
 ];
+
+// Check if Playing
+let isPlaying = false;
