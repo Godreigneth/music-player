@@ -44,3 +44,11 @@ function playSong() {
   playBtn.setAttribute('title', 'Pause');
   music.play();
 }
+
+// Pause
+function pauseSong() {
+  isPlaying = false;
+  playBtn.classList.replace('fa-pause', 'fa-play');
+  playBtn.setAttribute('title', 'Play');
+  music.pause();
+}
