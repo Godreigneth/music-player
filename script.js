@@ -63,3 +63,6 @@ function loadSong(song) {
   music.src = `music/${song.name}.mp3`;
   image.src = `img/${song.name}.jpg`;
 }
+
+// Current Song
+let songIndex = 0;
