@@ -76,3 +76,13 @@ function prevSong() {
   loadSong(songs[songIndex]);
   playSong();
 }
+
+// Next Song
+function nextSong() {
+  songIndex++;
+  if (songIndex > songs.length - 1) {
+    songIndex = 0;
+  }
+  loadSong(songs[songIndex]);
+  playSong();
+}
