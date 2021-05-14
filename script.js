@@ -86,3 +86,6 @@ function nextSong() {
   loadSong(songs[songIndex]);
   playSong();
 }
+
+// On Load - Select First Song
+loadSong(songs[songIndex]);
